@@ -82,18 +82,6 @@ Top 5 Recommendations for User 123 (example):
 
 Note: Recommendations depend on training split & user history
 
-💻 Run It Yourself
-If you want to try it out locally:
-
-# Clone the repo
-git clone https://github.com/Ayush120623/netflix-recommender-svd.git
-cd netflix-recommender-svd
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Open notebooks and run cells
-cd notebooks
 
 👋 Connect
 
