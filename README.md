@@ -1,5 +1,5 @@
 
-#🎬 Netflix Recommendation Engine using SVD
+#Netflix Recommendation Engine using SVD
 Welcome to my Netflix-style movie recommendation system!
 This project uses Singular Value Decomposition (SVD) to predict how a user would rate unseen movies — and recommends the best ones based on those predictions.
 
