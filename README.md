@@ -80,7 +80,7 @@ Top 5 Recommendations for User 123 (example):
 
 🧱 The Shawshank Redemption (1994)
 
-Note: Recommendations depend on training split & user history
+# Note: Recommendations depend on training split & user history
 
 
 👋 Connect
