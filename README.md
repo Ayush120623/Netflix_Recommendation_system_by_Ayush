@@ -1,84 +1,92 @@
+# 🎬 Netflix Recommendation Engine using SVD
 
-#Netflix Recommendation Engine using SVD
-Welcome to my Netflix-style movie recommendation system!
-This project uses Singular Value Decomposition (SVD) to predict how a user would rate unseen movies — and recommends the best ones based on those predictions.
+Welcome to my Netflix-style movie recommendation system!  
+This project uses **Singular Value Decomposition (SVD)** to predict how a user would rate unseen movies — and recommends the best ones based on those predictions.
 
-#📌 Overview
-Movie recommendation systems are everywhere — Netflix, Amazon, YouTube, Spotify. This project dives into building one from scratch using a popular collaborative filtering technique: Matrix Factorization.
+---
 
-I built this project as part of an internship assignment to get hands-on with real-world recommendation systems.
+## 📌 Overview
 
-#🚀 What It Does
-Predicts user-movie ratings using SVD
+Movie recommendation systems are everywhere — Netflix, Amazon, YouTube, Spotify.  
+This project dives into building one from scratch using a popular collaborative filtering technique: **Matrix Factorization**.
 
-Recommends top N movies to a given user
+> 🛠️ I built this project as part of an internship assignment to get hands-on with real-world recommendation systems.
 
-Visualizes rating distributions and model performance
+---
 
-#🔧 How It Works
+## 🚀 What It Does
 
-Data Preprocessing
-Loads user-movie ratings and converts them into a sparse matrix.
+- ✅ Predicts user-movie ratings using SVD  
+- 🎯 Recommends top N movies to a given user  
+- 📊 Visualizes rating distributions and model performance
 
-Matrix Factorization (SVD)
-Decomposes the matrix into user and item latent factors.
+---
 
-Prediction
-Reconstructs missing ratings using dot product of latent features.
+## 🔧 How It Works
 
-Recommendation
-For any user, it recommends the highest-rated movies they haven’t seen yet.
+**📂 Data Preprocessing**  
+- Loads user-movie ratings  
+- Converts data into a sparse matrix  
 
-#🧠 Tech Stack
-Tool	Purpose
-Python	Core programming language
-NumPy, Pandas	Data processing
-Scikit-learn / Surprise	Matrix factorization
-Matplotlib, Seaborn	Visualizations
+**🔎 Matrix Factorization (SVD)**  
+- Decomposes the matrix into user and item latent factors  
 
-#📁 Project Structure
+**📈 Prediction**  
+- Reconstructs missing ratings using the dot product of latent features  
+
+**🎥 Recommendation**  
+- For any user, recommends the highest-rated movies they haven’t seen yet  
+
+---
+
+## 🧠 Tech Stack
+
+| Tool           | Purpose                        |
+|----------------|--------------------------------|
+| Python         | Core programming language      |
+| NumPy, Pandas  | Data processing                |
+| Scikit-learn / Surprise | Matrix factorization |
+| Matplotlib, Seaborn | Visualizations           |
+
+---
+
+## 📁 Project Structure
 
 netflix-recommender-svd/
 │
-├── data/             # Cleaned ratings & movie metadata
-├── notebooks/        # EDA, training, evaluation notebooks
-├── src/              # Python scripts (e.g., model, utils)
-└── README.md         # You're reading it 🙂
+├── data/ # Cleaned ratings & movie metadata
+├── notebooks/ # EDA, training, evaluation notebooks
+├── src/ # Python scripts (e.g., model, utils)
+└── README.md # You're reading it 🙂
 
-#📊 Key Highlights
-Dataset: Based on MovieLens — includes user-movie rating history
+## 📊 Key Highlights
 
-Model: Trained with SVD via the Surprise library
+- 📂 **Dataset:** Based on MovieLens — includes user-movie rating history  
+- 🤖 **Model:** Trained with SVD via the Surprise library  
+- 🧮 **Evaluation:** Achieves ~0.87 RMSE on test data  
+- 🎯 **Top-N Recommendations:** Returns best movie picks for any user  
+- 🧩 **Code Quality:** Modular, notebook-driven, beginner-friendly  
 
-Evaluation: Achieves ~0.87 RMSE on test data
+---
 
-Top-N Recommendations: Returns best movie picks for any user
+## 🧠 What I Learned
 
-Code Quality: Modular, notebook-driven, beginner-friendly
+- How collaborative filtering works in production systems  
+- Implementing matrix factorization with real-world data  
+- Building reusable machine learning pipelines  
+- Evaluating recommender systems with metrics like **RMSE**
 
-#🧠 What I Learned
-How collaborative filtering works in production systems
+---
 
-Implementing matrix factorization with real-world data
+## 🧪 Sample Output
 
-Building reusable machine learning pipelines
+Top 5 Recommendations for User 123 _(example)_:
 
-Evaluating recommender systems with metrics like RMSE
-
-#🧪 Sample Output
-Top 5 Recommendations for User 123 (example):
-
-🎞️ The Matrix (1999)
-
-🥊 Fight Club (1999)
-
-🌀 Inception (2010)
-
-💼 Pulp Fiction (1994)
-
-🧱 The Shawshank Redemption (1994)
-
-# Note: Recommendations depend on training split & user history
+- 🎞️ The Matrix (1999)  
+- 🥊 Fight Club (1999)  
+- 🌀 Inception (2010)  
+- 💼 Pulp Fiction (1994)  
+- 🧱 The Shawshank Redemption (1994)  
 
 
 #👋 Connect
