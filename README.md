@@ -50,14 +50,6 @@ This project dives into building one from scratch using a popular collaborative 
 
 ---
 
-## 📁 Project Structure
-
-netflix-recommender-svd/
-│
-├── data/ # Cleaned ratings & movie metadata
-├── notebooks/ # EDA, training, evaluation notebooks
-├── src/ # Python scripts (e.g., model, utils)
-└── README.md # You're reading it 🙂
 
 ## 📊 Key Highlights
 
